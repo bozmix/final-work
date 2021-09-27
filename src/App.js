@@ -1,10 +1,16 @@
 import './App.css';
+import React from 'react';
+import { Header } from './components/Header/Header';
+import { SearchBar } from './components/SearchBar/SearchBar';
+import { Footer } from './components/Footer/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Cao iz APP.js</h1>
-    </div>
+    <React.Fragment>
+      <Header />
+      <SearchBar />
+      <Footer />
+    </React.Fragment>
   );
 }
 
